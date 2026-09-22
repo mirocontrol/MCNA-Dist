@@ -1,15 +1,32 @@
 # 🚀 MC Network Analyzer — Releases Oficiais
 
-> **Fonte oficial de downloads** do MC Network Analyzer.  
+> **Fonte oficial de downloads** do MC Network Analyzer.
 > Distribuição **100% Standalone USB / Portable Offline / Zero Instalação** para engenheiros de campo.
 
 ---
 
-## 📦 Baixar a Última Versão
+## ⚠️⚠️⚠️ NÃO CLIQUE NO BOTÃO VERDE "Code" — BAIXE PELA ABA "Releases" ⚠️⚠️⚠️
 
-👉 **[Clique aqui para releases](https://github.com/mirocontrol/MCNA-Dist/releases/latest)**
+| ❌ **ERRO MAIS COMUM** (você não baixou o executável) | ✅ **JEITO CERTO** (vem o EXE portable) |
+|---|---|
+| 🟩 Clicar no botão verde **Code → Download ZIP** na página inicial do repositório. | Ir até a **aba Releases** (menu lateral direito OU clique no botão abaixo) |
+| Resultado: **10 KB** de arquivos markdown (README / LICENSE), sem EXE, sem runtime. | Resultado: **~42 MB** de ZIP portable com MC-NetworkAnalyzer.exe, runtime Python, launchers, etc. |
 
-Sempre baixe **todos os 3 anexos** da release:
+> **Por que o binário não está no git?** Repositórios git são para código-fonte / docs. Binários de 40 MB ficam armazenados apenas como **GitHub Release Assets** (storage otimizado, indexado por versão).
+
+👇 **CLIQUE AQUI PARA BAIXAR A VERSÃO MAIS RECENTE:**
+
+# [👉 📥 Ir para Releases / Downloads](https://github.com/mirocontrol/MCNA-Dist/releases/latest)
+
+> Atalho: também clique no lado direito desta página, na área **"Releases"**, em **"Latest"**.
+
+---
+
+## 📦 Baixar a Última Versão (mesmo link acima, repetido por conveniência)
+
+👉 **[github.com/mirocontrol/MCNA-Dist/releases/latest](https://github.com/mirocontrol/MCNA-Dist/releases/latest)**
+
+Sempre baixe **todos os 3 anexos** da release (na área "Assets" da página da release):
 
 | # | Arquivo | Tamanho | Finalidade |
 |---|---------|---------|------------|
