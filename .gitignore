@@ -1,0 +1,116 @@
+# ============================================================
+#  MCNA-Dist — Repositório PÚBLICO de Binários MC Network Analyzer
+#  (c) 2026 Miro Control Automação Industrial LTDA.
+#  ZERO BINÁRIOS / ZERO EXE / ZERO DLL / ZERO ARQUIVOS COMPILADOS  NO  GIT
+#  Os binários (ZIP portable + hashes) ficam APENAS como GitHub Release Assets.
+# ============================================================
+
+# ---- Binários (JAMAIS commitar esses) ----
+*.exe
+*.dll
+*.pyd
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+*.bz2
+*.msi
+*.cab
+
+# ---- Binários Python compilados ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.tox/
+.eggs/
+
+# ---- Runtime Python Embed (Portable USB) ----
+_runtime*/
+Python*/
+runtime/
+_internal/
+
+# ---- Build artifacts locais (nunca públicos no git) ----
+build/
+dist/
+releases/
+*_build*/
+staging/
+_stage*/
+*_staging/
+
+# ---- Caches de build ----
+.cache/
+.venv/
+venv/
+env/
+env.bak/
+venv.bak/
+.pdm-python/
+
+# ---- Caches de IDE / Editor ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ---- Webview2 / UIs temporários ----
+*.tmp
+*.temp
+WebView2/
+EBWebView/
+
+# ---- Dados de engenheiro de campo (JAMAIS públicos) ----
+data/
+*.sqlite3
+*.db
+*.pcap
+*.pcapng
+*.cap
+*.jsonl
+*.log
+logs/
+*.csv
+
+# ---- Drafts / rascunhos de release (são gerados pelo orquestrador) ----
+RELEASE_NOTES_DRAFT.md
+RELEASE_ANEXOS_LIST.txt
+RELEASE_NOTES_CI.md
+RELEASE_NOTES-v*.md
+
+# ---- Hashes runtime (foram publicados como Release assets, NÃO no git) ----
+hashes.txt
+*.sha256
+*.sha512
+*.md5
+checksum*.txt
+
+# ---- Arquivos de sincronização / mirroring temporários ----
+*.lock
+.sync_*.tmp
+_migration/
+_mirror_*/
+
+# ---- Segredos / credenciais (DEFESA EM PROFUNDIDADE) ----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+*.csr
+secrets/
+credenciais/
+tokens/
