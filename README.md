@@ -54,7 +54,7 @@ Compare o valor no campo `Hash` com o hash da primeira linha de **`hashes.txt`**
 sha256sum -c hashes.txt
 ```
 
-Saída **esperada**: `MC-NA-Portable_build2650319.zip: OK`
+Saída **esperada**: `MC-NA-Portable_build2650705.zip: OK`
 
 ---
 
@@ -90,7 +90,7 @@ Saída **esperada**: `MC-NA-Portable_build2650319.zip: OK`
 ## 🛠 Fluxo Rápido de Campo (60 segundos)
 
 ```
-1.  Extraia TODO o ZIP para raiz do pendrive  (ex: D:\MC-NA-Portable_build2650319\)
+1.  Extraia TODO o ZIP para raiz do pendrive  (ex: D:\MC-NA-Portable_build2650705\)
 2.  ❌ NUNCA execute diretamente de dentro do ZIP.
 3.  [Plantas Siemens] Duplo-clique em:  00-Diagnostico-PreVarredura-Siemens.cmd
 4.  [Todas as plantas] Duplo-clique em:  01-Iniciar-SomenteLeitura-Planta.cmd
@@ -161,13 +161,14 @@ Cumpre **IEC 62443-4-2** em operação padrão Read-Only.
 
 | Canal | Contato |
 |-------|---------|
-| WhatsApp Campo | +55 (11) 99999-9999 |
-| E-mail Engenharia | mc-analyzer@mirocontrol.com.br |
+| **Identidade Empresarial** | 📋 Miro Control Automação Industrial LTDA · CNPJ 64.335.954/0001-38 |
+| WhatsApp Campo 24/7 | +55 43 98830-8437 |
+| E-mail Engenharia / Suporte | network_analyzer@mirocontrol.com.br |
 | Site Oficial | [https://mirocontrol.com.br](https://mirocontrol.com.br) |
 | Issues Bugs (repo público) | [github.com/mirocontrol/MCNA-Dist/issues](https://github.com/mirocontrol/MCNA-Dist/issues) |
 
 ---
 
-> **MC Network Analyzer** · (c) 2026 **Miro Control Automação Industrial LTDA.**  
+> **MC Network Analyzer** · (c) 2026 **Miro Control Automação Industrial LTDA.** · CNPJ 64.335.954/0001-38  
 > Todo o conteúdo deste repositório é distribuído sob a **EULA comercial MCNA** (ver `LICENSE.txt`).  
 > Código-fonte do app permanece em repositório privado (`mirocontrol/MC-NetworkAnalyzer`). Apenas binários de release e documentação de campo são publicados aqui.
