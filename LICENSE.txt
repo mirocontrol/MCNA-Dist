@@ -1,0 +1,132 @@
+================================================================================
+          MC NETWORK ANALYZER — END USER LICENSE AGREEMENT (EULA)
+                       Distribuição de Binários / Portable USB
+              (c) 2026 MIRO CONTROL AUTOMAÇÃO INDUSTRIAL LTDA.
+                           CNPJ: Consulte CARD CNPJ
+                 Site: https://mirocontrol.com.br  ·  São Paulo/SP
+================================================================================
+
+Este documento ("EULA") rege o uso dos ARQUIVOS BINÁRIOS e da DOCUMENTAÇÃO DE
+CAMPO do software MC Network Analyzer ("Software"), distribuídos exclusivamente
+pelo repositório público GitHub "mirocontrol/MCNA-Dist" (o "Canal Oficial").
+
+O CÓDIGO-FONTE DO SOFTWARE NÃO É DISTRIBUÍDO POR ESTE EULA E PERMANECE
+PROPRIEDADE INTELECTUAL EXCLUSIVA DE MIRO CONTROL AUTOMAÇÃO INDUSTRIAL LTDA.
+
+================================================================================
+1. ACEITE DOS TERMOS
+================================================================================
+Ao INSTALAR, COPIAR, BAIXAR ou EXECUTAR o Software (inclusive de forma
+portable a partir de mídia USB), VOCÊ ("Licenciado" ou "Engenheiro de Campo")
+declara expressamente que:
+
+  (a) É Pessoa Jurídica (CNPJ) ou profissional autônomo devidamente registrado
+      (CREA/CFT para atividades de automação).
+  (b) Não acessará o Software com finalidades de engenharia reversa,
+      descompilação, redistribuição ou sublicenciamento.
+  (c) Operará o Software dentro dos limites da IEC 62443-4-2 para redes OT
+      industriais, respeitando os launchers "SOMENTE LEITURA" como padrão.
+
+Se VOCÊ NÃO ACEITAR ESTES TERMOS: não execute o Software, apague imediatamente
+todos os arquivos e devolva a mídia USB para o fornecedor.
+
+================================================================================
+2. CONCESSÃO DE LICENÇA (Limitada, Não-Exclusiva, Não Transferível)
+================================================================================
+Miro Control AUTORIZA VOCÊ, sob pagamento de licença comercial ativa (se
+aplicável) ou sob licença BETA (versões -beta / -rc):
+
+  ✅ Instalar, executar e rodar o Software em ATÉ (3) estações de trabalho
+     Windows de propriedade da empresa do Licenciado.
+  ✅ Copiar o Software para MÍDIAS USB PORTÁTEIS para uso em campo
+     (pendrive pessoal do engenheiro, exclusivamente para o Licenciado).
+  ✅ Gerar relatórios de campo (CSV / PDF As-Built / GraphML) contendo dados
+     de PESSOA JURÍDICA (Razão Social / CNPJ) para entrega ao cliente.
+
+  ❌ NÃO é permitido redistribuir, sublicenciar, vender, alugar, ou publicar
+     o Software em canais que não o Canal Oficial (mirocontrol/MCNA-Dist).
+  ❌ NÃO é permitido descompilar ou fazer engenharia reversa dos binários.
+  ❌ NÃO é permitido remover atribuições de licença de bibliotecas de terceiros
+     presentes em distribution_assets/ATRIBUICOES_BIBLIOTECAS.md.
+
+================================================================================
+3. ATRIBUIÇÕES DE BIBLIOTECAS DE TERCEIROS (Compliance)
+================================================================================
+O Software incorpora componentes de terceiros com as seguintes licenças:
+
+  • FastAPI / Pydantic / Uvicorn (MIT License)
+  • NumPy / Pandas / ReportLab (BSD-3-Clause)
+  • Vis.js Network / Tailwind CSS / Solid.js (MIT License)
+  • CPython 3.11.9 stdlib (PSF License 2.0)
+  • pymodbus 3.6.9 (LGPL-3.0, link dinâmico relinkável pelo Licenciado)
+  • scapy 2.6.0 (GPL-2.0, EXECUTADO EM PROCESSO FILHO RPC SEPARADO,
+    "Mere Aggregation", sem importação estática no Software proprietário)
+
+A íntegra dos COPYRIGHT HOLDERS e termos das licenças está DENTRO do pacote
+portable em:  distribution_assets/ATRIBUICOES_BIBLIOTECAS.md
+Você concorda em manter este arquivo inalterado e acessível ao cliente final.
+
+================================================================================
+4. MODOS DE OPERAÇÃO E RESPONSABILIDADE
+================================================================================
+O Software possui 4 launchers padronizados (arquivos .cmd). Você se obriga a:
+
+  4.1. USAR 01-Iniciar-SomenteLeitura-Planta.cmd como LANÇAMENTO PADRÃO em
+       99% das operações em planta produtiva.
+  4.2. EXECUTAR 00-Diagnostico-PreVarredura-Siemens.cmd ANTES de conectar em
+       plantas Siemens (Npcap 1.79+, Porta 102 livre, Cabo Ethernet).
+  4.3. LANÇAR 03-Iniciar-ModoEscrita-Bancada.cmd SOMENTE em BANCADA DE
+       LABORATÓRIO ou mediante ORDEM DE SERVIÇO formal + assinatura digital
+       do responsável técnico registrado em livro ISO 27001 da planta.
+
+================================================================================
+5. GARANTIA LIMITADA (BETA x PRODUÇÃO)
+================================================================================
+  (a) VERSÕES BETA / RC (-beta, -rc suffix)
+      → DISTRIBUÍDAS "COMO ESTÃO" (AS IS). Nenhuma garantia implícita ou
+         explícita. Sem suporte SLA. Risco exclusivo do Licenciado.
+
+  (b) VERSÕES DE PRODUÇÃO (1.x.y GA, sem sufixo -beta)
+      → Garantia de 90 (noventa) dias a partir da data de download oficial
+         do Canal MCNA-Dist, cobrindo apenas:
+         (i)   Corrupção de binário que diverge do SHA-256 de hashes.txt;
+         (ii)  Crash repetitivo do EXE em Windows 10/11 22H2+ x64 (hardware
+               certificado, sem conflito com outro software de captura).
+
+================================================================================
+6. LIMITAÇÃO DE RESPONSABILIDADE
+================================================================================
+NA MÁXIMA EXTENSÃO PERMITIDA POR LEI, MIRO CONTROL E SEUS FORNECEDORES NÃO
+SERÃO RESPONSÁVEIS POR QUAISQUER DANOS INDIRETOS, ESPECIAIS, INCIDENTAIS,
+CONSEQÜENCIAIS OU PUNITIVOS (INCLUINDO LUCROS CESSANTES, PARADA DE PRODUÇÃO,
+PERDA DE DADOS DE PRODUTO OU VIOLAÇÃO DE SEGURANÇA DE REDE OT), INDEPENDENTE
+DA TEORIA DE RESPONSABILIDADE (CONTRATO, DELITO OU OUTRA), MESMO QUE AVISADO
+DA POSSIBILIDADE DE TAIS DANOS.
+
+================================================================================
+7. RESCISÃO
+================================================================================
+Miro Control pode rescindir este EULA IMEDIATAMENTE, sem aviso prévio, se VOCÊ
+violar quaisquer dos Termos (incluindo, sem limitar, redistribuição indevida,
+engenharia reversa, uso em Wi-Fi de planta com consequência de colisão L2).
+Na rescisão, você apaga TODAS as cópias do Software.
+
+================================================================================
+8. LEI APLICÁVEL E FORO
+================================================================================
+Este EULA é regido pelas leis da República Federativa do Brasil. Foro da
+Comarca de São Paulo/SP, exclusivo de qualquer outro, por mais privilegiado
+que seja ou venha a ser.
+
+================================================================================
+9. INFORMAÇÕES DE CONTATO
+================================================================================
+  • Suporte Técnico...........: mc-analyzer@mirocontrol.com.br
+  • WhatsApp Campo............: +55 (11) 99999-9999
+  • Segurança / Vulnerab.....: security@mirocontrol.com.br
+  • LGPD / DPO................: dpo@mirocontrol.com.br
+  • Jurídico Contratos.......: juridico@mirocontrol.com.br
+
+================================================================================
+Versão do EULA: v2.0-b265  ·  Emitido em: 2026-09-22  ·  Build Ref: #2650319
+================================================================================
